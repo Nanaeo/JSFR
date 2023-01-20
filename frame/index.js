@@ -5,7 +5,7 @@ var FrameEnv = {};
 function InitFrame(config)
   {
   FrameEnv.NodeVer = process.version.substr(1).split(".");
-  ("debug" in config &&  config.debug == "true")? FrameEnv.debug = true:null;
+  (config.hasOwnProperty("debug") &&  config.debug == "true")? FrameEnv.debug = true:null;
   }
 //检测环境
 //初始化部分必须变量
