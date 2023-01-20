@@ -16,3 +16,4 @@ function jsfrInit(config)
 //替换模式 r 标准替换模式(冲突请手动调节优先级) rw 等待替换模式 rx 强替换模式(注销所有其它挂载)
 //读取模式 rd 读取模式  rx 强读模式(注销所有其它载载)
 //事件驱动触发流程插件事件
+module.exports.InitFrame = InitFrame;
