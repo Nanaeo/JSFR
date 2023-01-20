@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 //加载配置
 //检测环境
