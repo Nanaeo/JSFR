@@ -2,6 +2,6 @@
 'use strict';
 //程序入口 初始化程序
 var cfg = require("./config.js");
+console.log(cfg);
 var jsf = require("./frame/index.js");
-jsf.InitFrame(cfg.config)
-
+jsf.InitFrame(cfg.config);
