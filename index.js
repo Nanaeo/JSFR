@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 //程序入口 初始化程序
-config = require("config.js");
+cfg = require("./config.js");
 jsf = require("./frame/index.js");
-jsf.InitFrame()
+jsf.InitFrame(cfg.config)
+
