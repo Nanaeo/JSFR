@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 'use strict';
 //加载配置
+var FrameEnv = {}
+function jsfrInit(config)
+  {
+  FrameEnv.NodeVer = process.version.substr(1).split(".");
+  "debug" in config &&  config.debug == "true" && FrameEnv.debug = true;
+  }
 //检测环境
 //初始化部分必须变量
 //提前加载脚手架 全局变量控制 ...
