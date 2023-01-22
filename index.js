@@ -4,3 +4,4 @@
 var cfg = require("./config.js");
 var jsf = require("./frame/index.js");
 jsf.InitFrame(cfg);
+//jsf.RunFrame();
