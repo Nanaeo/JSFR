@@ -2,8 +2,7 @@
 
 var config = {
         debug:true,
-        pluginmode:1,
-	pluginPath: 'plugin'
+        pluginmode:0
 }
 module.exports = config;
 //debug true/false 调试模式
