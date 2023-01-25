@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "yaml": "^2.1.3"
+  },
+  "name": "jsfrframe",
+  "version": "1.0.0",
+  "description": "A Friendly Link Management Tool",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nanaeo/JSFR.git"
+  },
+  "author": "Mlikiowa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nanaeo/JSFR/issues"
+  },
+  "homepage": "https://github.com/Nanaeo/JsFriend#readme"
+}
